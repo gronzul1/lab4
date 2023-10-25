@@ -1,27 +1,21 @@
-# PrimeNG Angular-CLI
+# Setting up a website on Cloud
+## Course-end Project 2
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.
+Description
 
-## Development server
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+You are a Cloud engineer. Your company has brought in a new client who has got a website. However, they need a web server so that they can run their website completely on Cloud. Once the web server is up and running, they want you to configure the Cloud so that testing of the web server can be completed successfully.
+ 
+Steps to Perform:
 
-## Code scaffolding
+- Create an EC2 instance (OS: Windows 2012 R2 Base)
+- Install IIS server role
+- Create a static website and check on a localhost
+- Create an image of the machine and save the AMI
+- Create a new instance using the AMI you have saved
+- Create a Load Balancer and attach the instances you have done before
+- Check the DNS name on the browser
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive/pipe/service/class/module`.
+<hr>
 
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-Before running the tests make sure you are serving the app via `ng serve`.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+### Schema
+<img src="./docs/schema.drawio.png" style="width:80%">
